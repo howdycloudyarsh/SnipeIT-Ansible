@@ -1,5 +1,7 @@
 ---
-- name: Generating Key
-  shell: sudo php artisan key:generate --force
+- name: Generate application key
+  command: "php artisan key:generate"
   args:
-    chdir: /var/www/snipeit/
+        chdir: /var/www/snipeit
+  async: 3600
+  poll: 0
