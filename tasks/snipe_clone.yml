@@ -1,5 +1,5 @@
 ---
-- name: Snipe It Clone 
+- name: Snipe It Clone
   git:
       repo: https://github.com/snipe/snipe-it.git
       dest: /var/www/snipeit
