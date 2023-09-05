@@ -1,6 +1,7 @@
 ---
-
-- name: Installing Composer
-  shell: sudo composer install --no-dev --prefer-source --no-interaction
+- name: Install Composer dependencies for Snipe-IT
+  command: "composer install --no-dev --prefer-source"
   args:
-    chdir: /var/www/snipeit/
+        chdir: /var/www/snipeit
+  async: 3600
+  poll: 0
