@@ -272,3 +272,15 @@ systemctl restart apache2
 ```
 
 #### Done! now you can open the browser and run the setup wizard.
+
+## REFERENCES
+
+https://github.com/GR360RY/snipeit-ansible
+
+https://github.com/VettiOps/SnipeIt_Ansible
+
+https://github.com/snipe/snipe-it/
+
+https://github.com/kumarshreyansh/snipe-it-automation-using-ansible
+
+
