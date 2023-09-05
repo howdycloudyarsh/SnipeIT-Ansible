@@ -6,7 +6,7 @@
 -  name: replace php.ini
    copy:
       src: php.ini
-      dest: /etc/php/7.2/apache2/php.ini
+      dest: /etc/php/8.1/apache2/php.ini
 -  name: replace snipeit.conf
    copy:
       src: snipeit.conf
